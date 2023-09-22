@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Marmitas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="../../static/css/styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="p-0 m-0 border-0 bd-example m-0 border-0 bg-body-secondary">
+    <nav class="navbar navbar-expand-lg bg-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand pe-4 text-white" href="../index.html">Marmitas</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon whithe"></span>
+        </button>
+        <div
+          class="navbar-collapse collapse show"
+          id="navbarSupportedContent"
+        >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle pe-3 text-white"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Cliente
+            </a>
+            <ul class="dropdown-menu bg-secondary-subtle">
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../user/login.html"
+                  >Login</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../user/cadastro.html"
+                  >Cadastrar</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle pe-3 text-white"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Nutricionista
+            </a>
+            <ul class="dropdown-menu bg-secondary-subtle">
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../nutritionist/login.html"
+                  >Login</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../nutritionist/cadastro.html"
+                  >Cadastrar</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle pe-3 text-white"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Cardápio
+            </a>
+            <ul class="dropdown-menu bg-secondary-subtle">
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../menu/cadastro.html"
+                  >Cadastrar</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../menu/lista.html"
+                  >Todas marmitas</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item bg-secondary-subtle"
+                  href="../menu/listaDay.html"
+                  >Cardápio do dia</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="postionTitleName">
+      <h1 class="fw-bold font-monospace text-dark-emphasis">NUTRICIONISTA</h1>
+    </div>
+    <div
+      class="position-absolute top-50 start-50 translate-middle sizingLoginUser"
+    >
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label fs-5"
+            >Usuário</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label fs-5"
+            >Login</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label fs-5"
+            >Senha</label
+          >
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="text-center">
+          <button
+            type="submit"
+            class="btn btn-outline-secondary sizingButtonLogin"
+          >
+            Cadastrar
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
